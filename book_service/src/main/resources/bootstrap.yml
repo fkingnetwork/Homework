@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: book-service
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        shared-configs:
+          - dataId: YUNE.yaml
+      server-addr: 192.168.92.211:8848

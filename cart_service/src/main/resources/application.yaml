@@ -1,0 +1,9 @@
+server:
+  port: 7073
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  feign:
+    okhttp:
+      enabled: true # 开启OKHttp功能

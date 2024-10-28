@@ -1,0 +1,18 @@
+server:
+  port: 7072
+spring:
+  rabbitmq:
+    host: 192.168.92.211
+    port: 5672
+    username: admin
+    password: admin
+    listener:
+      simple:
+        concurrency: 10         # 最小并发消费者数量
+        max-concurrency: 20      # 最大并发消费者数量
+        prefetch: 50             # 每个消费者预取消息数量，限流
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+

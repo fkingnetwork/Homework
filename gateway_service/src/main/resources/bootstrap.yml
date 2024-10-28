@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    nacos:
+      config:
+        shared-configs:
+          - data-id: YUNE.yaml
+          - data-id: YUNE_GATEWAY.yaml
+            refresh: true
+        file-extension: yaml
+      server-addr: 192.168.92.211:8848

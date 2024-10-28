@@ -1,0 +1,10 @@
+server:
+  port: 7070
+spring:
+  main:
+    web-application-type: reactive
+hm:
+  auth:
+    excludePaths:
+      - /user/login
+      - /user/quit

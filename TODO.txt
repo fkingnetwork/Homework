@@ -1,0 +1,17 @@
+1.密码加密aes-128 DONE
+2.订单号加密
+3.判断库存 DONE
+4.注册新用户 DONE
+5.trade的前端 DONE
+6.登录验证码 DONE
+7.nacos整合配置 DONE
+8.映射服务到外网 DONE
+9.把分页页面数据存入redis DONE
+10.添加管理系统 DONE (user,book)
+11.使用锁或者队列处理高并发 DONE (扣减库存使用乐观锁，下单使用分布式锁，下单后队列处理高并发）
+12.面向切面修改时间类似触发器 DONE
+13.完善管理端前端 DONE
+14.导出为excel
+15.Admin删除已过期书籍 DONE
+16.Swagger接口文档 DONE
+17.openFeign传递时没有用户数据 DONE

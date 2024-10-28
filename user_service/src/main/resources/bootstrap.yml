@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: user-service
+  cloud:
+    nacos:
+      config:
+        shared-configs:
+          - data-id: YUNE.yaml
+        file-extension: yaml
+      server-addr: 192.168.92.211:8848
